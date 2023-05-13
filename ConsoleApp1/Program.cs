@@ -4,8 +4,44 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.ReadKey();
+            int a, b;
+            Console.WriteLine("Введите а");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите b");
+            b = Convert.ToInt32(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("Выбор:");
+                Console.WriteLine("1.Ввести а");
+                Console.WriteLine("2.Ввести б");
+                Console.WriteLine("3.выполнить операцию +");
+                Console.WriteLine("4.выполнить операцию -");
+                Console.WriteLine("5.выполнить операцию *");
+                Console.WriteLine("6. выполнить операцию “/”");
+           
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        a = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case "2":
+                        b = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case "3":
+                        Console.WriteLine($"Результат: {a} + {b} = " + (a + b));
+                        break;
+                    case "4":
+                        Console.WriteLine($"Результат: {a} - {b} = " + (a - b));
+                        break;
+                    case "5":
+                        Console.WriteLine($"Результат: {a} * {b} = " + (a * b));
+                        break;
+                    case "6":
+                        Console.WriteLine($"Результат: {a} / {b} = " + (a / b));
+                        break;
+                }
+            }
+
         }
     }
 
