@@ -22,19 +22,19 @@
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        
+                        a = Convert.ToInt32(Console.ReadLine());
                         break;
                     case "2":
-                       
+                        b = Convert.ToInt32(Console.ReadLine());
                         break;
                     case "3":
-                        
+                        Console.WriteLine($"Результат: {a} + {b} = " + (a + b));
                         break;
                     case "4":
-                        
+                        Console.WriteLine($"Результат: {a} - {b} = " + (a - b));
                         break;
                     case "5":
-                       
+                        Console.WriteLine($"Результат: {a} * {b} = " + (a * b));
                         break;
                     case "6":
                         Console.WriteLine($"Результат: {a} / {b} = " + (a / b));
