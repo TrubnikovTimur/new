@@ -22,13 +22,13 @@
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        
+                       
                         break;
                     case "2":
-                        b = Convert.ToInt32(Console.ReadLine());
+                        
                         break;
                     case "3":
-                        
+                        Console.WriteLine($"Результат: {a} + {b} = " + (a + b));
                         break;
                     case "4":
                         
