@@ -22,16 +22,16 @@
                 switch (Console.ReadLine())
                 {
                     case "1":
-                       
+                        
                         break;
                     case "2":
                         
                         break;
                     case "3":
-                        Console.WriteLine($"Результат: {a} + {b} = " + (a + b));
+                        
                         break;
                     case "4":
-                        
+                        Console.WriteLine($"Результат: {a} - {b} = " + (a - b));
                         break;
                     case "5":
                         
