@@ -22,10 +22,10 @@
                 switch (Console.ReadLine())
                 {
                     case "1":
-                        
+                        a = Convert.ToInt32(Console.ReadLine());
                         break;
                     case "2":
-                        
+                       
                         break;
                     case "3":
                         
